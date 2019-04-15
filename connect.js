@@ -56,8 +56,9 @@ var pool = mysql.createPool({
 
 
 // to close all connections in the pool
-pool.end(function(err){
-    if(err){
-        return console.log(err.message);
-    }
-});
+// pool.end(function(err){
+//     if(err){
+//         return console.log(err.message);
+//     }
+//     //close all connections
+// });
